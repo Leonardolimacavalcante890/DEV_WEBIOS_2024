@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    
+</head>
+<body>
+    <!-- FORMULARIOS -->
+    <h2>Pacotes de Viagem</h2>
+        <form action="./inscricao.html">
+            <fieldset>
+                <legend>Infrormações sobre o usuario</legend>
+        
+            <label>Nome:</label>
+            <input type="text"> <br>
+            <label>Idade:</label>
+            <input type="number"> <br>
+            <label>E-Mail:</label>
+            <input type="text"> <br>
+            <label>Telefone:</label>
+            <input type="number"> <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Ida ou Volta</legend>
+                <input type="radio" name="ida"> 
+            <label>Somente Ida</label> <br>
+            
+            <input type="radio" name="ida"> 
+            <label>Ida e Volta</label> 
+            </fieldset>
+
+            
+             <h3>Quais serviços deseja contratar?</h3>
+             
+
+             <input type="checkbox">
+             <label>Compra de passagens</label> <br>
+             <input type="checkbox">
+             <label>Reserva de hospedagem</label> <br>
+             <input type="checkbox">
+             <label>Reserva de veiculos</label>
+             
+
+             <h3>Quantidade de crianças</h3>
+             1
+            <input type="range"> 
+            10
+            <br>
+            
+
+            <select>
+                
+                <option value=""></option>
+                <option value="Gru-Guarulhos">Gru-Guarulhos</option>
+                <option value="Congonhas">Congonhas</option>
+                <option value="Santos Dumont">Santos Dumont</option>
+                <option value="Aeroporto Internacional de Viracopos">Aeroporto Internacional de Viracopos</option>
+                <option value="Aeroporto do Campo de Marte">Aeroporto do Campo de Marte</option>
+            </select>
+            <br>
+            
+
+            <input type="text" list="Estados">
+
+            <datalist id="Estados">
+                <option value="São Paulo"></option>
+                <option value="Amapá"></option>
+                <option value="Tocantins"></option>
+                <option value="Sergipe"></option>
+                <option value="Rio de Janeiro"></option>
+                <option value="Rio Grande do Sul"></option>
+                <option value="Rio Grande do NOrte"></option>
+                <option value="Bahia"></option>
+                <option value="Paraìba"></option>
+                <option value="Roraima"></option>
+                <option value="Amazonas"></option>
+            </datalist>
+            <br>
+
+            <label>Deixe suas observações</label> <br>
+            <textarea cols="50 " rows="10"></textarea>
+
+            <input type="submit" value="Inscrição">
+
+            <input type="password"> 
+            <input type="month">
+            <input type="color">
+            <input type="time">
+            <input type="file">
+        </form>
+</body>
+</html>
