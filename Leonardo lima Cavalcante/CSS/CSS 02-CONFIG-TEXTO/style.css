@@ -1,0 +1,28 @@
+/*aqui tem um comentario (comentario em mais de uma linha)*/
+
+body{
+
+    color: aliceblue;
+               /* red, green, blue*/
+   /* background-color: rgb(0,0,0);*/
+   background-color: #404040;
+   font-family: "Carter One", system-ui;
+   font-size: 2rem;
+   
+   /* 16px vezes 2= 32px */
+}
+
+h1{
+     font-family: "teko", arial;
+     font-size: 70px ;
+}
+
+/* JUSTAR O TAMANHO DA IMAGEM*/
+img{
+    height: 600px; /*altura*/
+    width: 970px; /*largura*/
+}
+
+p{
+    font-size: 2em;    /* 16px vezes 2= 32px */
+}
