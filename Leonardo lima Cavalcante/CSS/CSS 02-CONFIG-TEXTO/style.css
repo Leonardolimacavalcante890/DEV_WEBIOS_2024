@@ -7,22 +7,34 @@ body{
    /* background-color: rgb(0,0,0);*/
    background-color: #404040;
    font-family: "Carter One", system-ui;
-   font-size: 2rem;
+   font-size: 10px;
    
    /* 16px vezes 2= 32px */
 }
 
 h1{
      font-family: "teko", arial;
-     font-size: 70px ;
+     
+     text-shadow: 15px 15px 11px black; /*sombra das palavras*/
+     text-align: center;
 }
+
+
+
 
 /* JUSTAR O TAMANHO DA IMAGEM*/
 img{
-    height: 600px; /*altura*/
-    width: 970px; /*largura*/
+    height: 60%; /*altura*/
+    width: 100%; /*largura*/
+    box-shadow: 15px 15px 15px black; /* sombra na imagem*/
 }
 
 p{
     font-size: 2em;    /* 16px vezes 2= 32px */
+     /* tamanho das palavras*/
+    font-style: italic;
+    line-height: 100%; /*separação das palavras*/
 }
+/* body é a root*/
+
+
