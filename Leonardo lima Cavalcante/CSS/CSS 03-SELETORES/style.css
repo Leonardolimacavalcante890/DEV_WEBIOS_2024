@@ -1,0 +1,39 @@
+*/* seletor pai > oque for aplicado dentro será aplicado na pagina web inteira inclusive na tag body*/{
+    margin: 0;
+    text-align: center;
+    background-color: burlywood;
+}
+
+.corAzul{
+    color: blue;
+    font-weight:700px ;
+    font-size:40px ;
+    text-shadow:5px 5px 5px ;
+    text-align: center ;
+}
+.corRosa{
+    color: pink;
+    font-weight:600px ;
+    font-size: 30px;
+    text-shadow:2px 2px 2px ;
+    text-align: center;
+}
+
+.mudandocss /*pra chamar um seletor é usado ponto*/{
+    color: rgba(39, 0, 138, 0.963);
+    text-align: center;
+}
+
+#mudancaunica/*para chamar um id seletor é usado o #*/{
+    color: crimson;
+    font-size: 50px;
+    text-shadow: 10px 10px 10px black;
+    text-indent: 20px;
+}
+#usuario2{
+    color: darkmagenta;
+    line-height: 5px;
+    text-shadow: 10px 10px 10px gray;
+    font-size: 40px;
+    text-align: center;
+}
