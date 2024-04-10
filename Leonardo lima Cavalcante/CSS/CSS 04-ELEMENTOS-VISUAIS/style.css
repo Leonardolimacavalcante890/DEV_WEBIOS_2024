@@ -1,0 +1,39 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+    /*background-image: linear-gradient();
+    background-image: radial-gradient();
+    background-image: repeating-linear-gradient();
+    background-image: repeating-radial-gradient();*/
+    /*background-image: url("https://picsum.photos/id/642/600/400");/*uso da imagem em forma de link*/
+   /*background-image: "./caminhodaimagem";*/
+   /*background-repeat: no-repeat; quantas vezes repetir a imagem*/
+  /* background-size:100% ;/*ocupaçao da tela*/
+   /*background-position: center;/*permite definir local da imagem*/
+   /*background-attachment:scroll;/*se quiser que a imagem siga a rolagem do site*/ /*scrool seguir a rolagem*/ /*fixed para ficar fixado no mesmo lugar*/
+/* pode se colocar duas imagens em um so comando separando-as por uma virgula*/
+}
+
+*{
+    margin: 0;
+}
+
+#primeiroparagrafo{
+    /* border-width/border-style/border-color*/
+    border: 2px       outset        red;
+    border-radius: 10px;
+    border-radius: 10px 5px 0 80px;
+    background-color: red;
+    /*top   
+    right   botton  left*/
+    /*topo direita base esquerda*/
+}
+img{
+    border-radius: 30px;
+}
+#imagem{
+    border: 10px solid gray;
+    border-radius: 30px;
+}
