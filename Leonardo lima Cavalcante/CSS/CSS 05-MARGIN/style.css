@@ -1,0 +1,9 @@
+#secao{
+    border: 1px gray solid;
+    border-radius: 10px;
+    /*padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;*/
+    padding: 10px 50px 20px 50px ;
+}
