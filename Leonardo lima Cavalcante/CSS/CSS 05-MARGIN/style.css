@@ -1,3 +1,10 @@
+body{
+    margin-left: 0;
+    margin-right: 0;/*para evitar que fique uma fita branca no site, é necesario colocar margin 0*/
+    margin-top: 0;
+    margin: 0;
+}
+
 #secao{
     border: 1px gray solid;
     border-radius: 10px;
@@ -6,4 +13,19 @@
     padding-bottom: 20px;
     padding-left: 50px;*/
     padding: 10px 50px 20px 50px ;
+    margin-bottom: 50px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#secao2{
+    border: 1px solid rgb(255, 247, 138);
+    padding: 10px;
+    margin-top: 50px;/*distnciar dos comandos pertos ou paragrafos*/
+    margin-bottom: 20px;
+}
+#secao3{
+    border: 1px solid rgb(232,111,245);
+    padding: 10px;
+
 }
