@@ -1,0 +1,13 @@
+/*.velho{
+    background-color: chocolate
+}*/
+p:last-child{
+    background-color: aqua;
+}/* forma mais rapida de colocar stilo em uma tag sem usar class. ele so ira funcionar se a tag estiver na primeira linha*/
+p:first-child{
+    background-color: blueviolet;
+}
+
+p:nth-child(2){
+    background-color: chartreuse;
+}
