@@ -1,6 +1,9 @@
 /*.velho{
     background-color: chocolate
 }*/
+body{
+    background-color: gray;
+}
 p:last-child{
     background-color: aqua;
 }/* forma mais rapida de colocar stilo em uma tag sem usar class. ele so ira funcionar se a tag estiver na primeira linha*/
@@ -9,5 +12,51 @@ p:first-child{
 }
 
 p:nth-child(2){
-    background-color: chartreuse;
+    background-color: gold;
+}
+
+#botao{
+    border: 1px solid white;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+#botao:hover{
+    color: white; /* a cor da letra*/
+    background-color: black;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hover:hover{
+    background-color: darkslateblue;
+    color: gold;
+    border: 5px solid gold;
+    text-shadow: 5px 5px 5px gold;
+    border-radius: 20px;
+    font-size: 40px;
+    padding: 10px;
+
+}/*usando classe é 2 pontos*/
+
+#seutitulo:hover{
+    font-family: "Jersey 10", sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 200;/*grossura da letra*/
+    color: azure;
+    background-color: darkslateblue;
+    text-align: center;
+}
+#foto:hover{
+    box-shadow: 10px 10px 10px white;
+    border-radius: 15px;
+    width: 700px;
+    height: 700px;
+}
+
+#a12::before{
+    /*conter alguma coisa*/content: 'utilizando before';
+}
+#a12::after{
+    content: 'utilizando after';
 }
