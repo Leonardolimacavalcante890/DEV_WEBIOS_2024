@@ -1,0 +1,13 @@
+/*@charset "UTF-8";*/
+
+img{
+    width: 700px;
+}
+/* Quando a largura da tela for de 450px a imagem terão uma largura de 200px*/
+/*enquanto a largura maxima da minha imagem for de 450px a alrgura das imagens serão de 200px*/
+/*min width / max width*/
+@media(max-width: 450px){
+    img{
+        width: 200px;
+    }
+}
