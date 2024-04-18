@@ -7,7 +7,25 @@ img{
 /*enquanto a largura maxima da minha imagem for de 450px a alrgura das imagens serão de 200px*/
 /*min width / max width*/
 @media(max-width: 450px){
-    img{
+    body{
+        background-color: aqua;
+    }
+    img:hover{
         width: 200px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px black;
+    }
+}
+@media(min-width: 452px){
+    body{
+        background-color: darkblue;
+    }
+    img:hover{
+        width: 900px;
+        border:7px solid white ;
+        border-radius: 30px;
+        box-shadow: 20px 20px 20px white;
+
     }
 }
