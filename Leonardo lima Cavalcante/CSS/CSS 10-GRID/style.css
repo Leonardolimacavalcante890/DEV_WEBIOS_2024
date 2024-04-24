@@ -1,0 +1,14 @@
+#container{/*colomns se referencia a coluna*/ /*rows se referencia a linha*/
+
+    grid-template-columns: repeat(9, 1fr /*ou 50px*/); /*feito para criar coluna e decidir o tamanho da celula*/
+    /*grid-template-rows: ; feito para criar linha*/
+    display: grid; /*trabalhar com grid*/
+    /*display: flex; ira ficar em linha reta*/
+    /*display: -ms-flexbox;ira ficar um embaixo do outro*/
+}
+
+.itens{
+    color: aliceblue;
+    border: 2px solid yellow;
+    background-color: black;
+}

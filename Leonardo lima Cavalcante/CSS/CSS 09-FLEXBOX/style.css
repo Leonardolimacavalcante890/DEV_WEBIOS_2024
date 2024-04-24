@@ -1,0 +1,20 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 50vh;
+    align-items: stretch;
+}
+
+.item{
+    border: 5px solid purple;
+    background-color: wheat;
+    width: 60px;
+    text-align: center;
+}
+
+body{
+    background-color: salmon;
+    
+}
