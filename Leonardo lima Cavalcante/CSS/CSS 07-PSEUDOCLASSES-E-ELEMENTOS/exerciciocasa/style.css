@@ -1,0 +1,64 @@
+body{
+    background-image: url(./img6.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 25px;
+}
+header{
+    background-image: url(./img7.webp);
+    text-align: center;
+    font-size: 100px;
+}
+
+
+span{
+
+}
+#div1{
+    
+    padding: 2em;
+    background-color: #c1c2bc;
+    margin: 20px;
+    #foto1{
+        margin-right: 20px;
+        width: 200px;
+        height: 180px;
+        float: left;
+    }
+
+}
+
+#div2{
+    
+    padding: 2em;
+    background-color: #c1c2bc;
+    iframe{
+        margin-right: 20px;
+        width: 250px;
+        height: 180px;
+        float: left;
+}
+
+to1{
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+}
+#imagem3{
+    width: 300px;
+    height: 300px;
+}
+#imagem4{
+    width: 300px;
+    height: 300px;
+}
+#imagem5{
+    width: 300px;
+    height: 300px;
+}
+#imagem6{
+    width: 300px;
+    height: 300px;
+}
