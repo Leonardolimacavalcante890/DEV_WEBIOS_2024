@@ -10,15 +10,16 @@ header{
     font-size: 100px;
 }
 
-
-span{
+span:hover{
+    background-color: #725436;
+    color: #c1c2bc
 
 }
 #div1{
     
     padding: 2em;
     background-color: #c1c2bc;
-    margin: 20px;
+    margin: 30px;
     #foto1{
         margin-right: 20px;
         width: 200px;
@@ -29,36 +30,61 @@ span{
 }
 
 #div2{
-    
     padding: 2em;
     background-color: #c1c2bc;
+    margin: 30px;
     iframe{
         margin-right: 20px;
         width: 250px;
-        height: 180px;
+        height: 220px;
         float: left;
+    }
 }
 
-to1{
-    float: left;
-    width: 300px;
-    height: 300px;
-}
-
+#divisao{
+    background-color:#c1c2bc;
+    padding: 2em;
+    margin: 30px;
 }
 #imagem3{
-    width: 300px;
-    height: 300px;
+    float: right;
+    width: 200px;
+    height: 170px;
 }
 #imagem4{
-    width: 300px;
-    height: 300px;
+    float: left;
+    width: 200px;
+    height: 170px;
 }
 #imagem5{
-    width: 300px;
-    height: 300px;
+    float: right;
+    width: 200px;
+    height: 170px;
 }
 #imagem6{
-    width: 300px;
-    height: 300px;
+    float: left;
+    width: 200px;
+    height: 170px;
+}
+
+.button1{
+    
+    border-radius: 5px; 
+}
+
+.button2{
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #314a20;
+    color: white;
+}
+
+.letra{
+    font-size: 70%;
+    color: #725436;
+}
+
+footer{
+    background-color: #8c8676;
 }

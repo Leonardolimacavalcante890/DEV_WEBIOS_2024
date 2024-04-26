@@ -1,14 +1,42 @@
-#container{/*colomns se referencia a coluna*/ /*rows se referencia a linha*/
+/*colomns se referencia a coluna*/ /*rows se referencia a linha*/
 
-    grid-template-columns: repeat(9, 1fr /*ou 50px*/); /*feito para criar coluna e decidir o tamanho da celula*/
+    /*grid-template-columns: repeat(9, 1fr /*ou 50px* /*feito para criar coluna e decidir o tamanho da celula*/
     /*grid-template-rows: ; feito para criar linha*/
-    display: grid; /*trabalhar com grid*/
+     /*trabalhar com grid*/
     /*display: flex; ira ficar em linha reta*/
     /*display: -ms-flexbox;ira ficar um embaixo do outro*/
-}
+
 
 .itens{
     color: aliceblue;
-    border: 2px solid yellow;
+    border: 1px solid yellow;
     background-color: black;
+    /*width: 50%;
+    height: 50%;*/
+    padding: 5px;
+    text-align: center;
+}
+
+#container{
+    padding: 20px;
+    display: grid;
+    grid-template-areas: "header header header header" "main main  . sidebar" "footer footer footer footer";/*define o modelo da area, repete a area*/
+    grid-template-columns: repeat(4, 1fr);
+    /*grid-template-rows: repeat(3, 50px);*/
+    row-gap:10px; /*espaçamento entre as linhas*/
+    column-gap: 10px; /*espaçamento entre as colunas*/
+    /*align-items: center;/*feito para mudar a posição da celular, e não colado nas bordas horizontal
+    justify-items: center;/*feito para mudar a posição das celulas vertical*/  
+}
+#item-1{
+    grid-area: header;
+}
+#item-2{
+    grid-area: main;
+}
+#item-3{
+    grid-area: sidebar;
+}
+#item-4{
+    grid-area: footer;
 }
