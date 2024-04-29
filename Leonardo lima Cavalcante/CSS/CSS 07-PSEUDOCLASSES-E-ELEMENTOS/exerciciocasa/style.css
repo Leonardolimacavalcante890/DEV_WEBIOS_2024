@@ -13,7 +13,10 @@ header{
 span:hover{
     background-color: #725436;
     color: #c1c2bc
+}
 
+.divisoes{
+    background-color: #8c8676;
 }
 #div1{
     
@@ -86,5 +89,18 @@ button:hover{
 }
 
 footer{
+    margin-top: 80px;
+    background-size: 9%;
+    text-align: center;
     background-color: #8c8676;
+    padding: 2em;
 }
+
+.footer::before{
+    content: "\00A9";
+}
+
+.footer::after{
+    content: "Leonardo Lima";
+}
+
