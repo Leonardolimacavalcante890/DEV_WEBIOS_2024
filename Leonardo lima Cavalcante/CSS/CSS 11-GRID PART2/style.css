@@ -1,0 +1,45 @@
+#container{
+    display: grid;
+    grid-template-columns:repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.itens{
+    border: 1px solid black;
+    background-color: chartreuse;
+    border-radius: 5px;
+
+}
+
+#item-1{
+    grid-column: 3 / 7;
+    /*grid-column: grid-column-start / grid-column-end*/
+    grid-row: 2 / 6;
+    /*grid-row: grid-rows-start / grid-rows-end*/
+    /*grid-column-start: 3;/*inicie em uma linha vertical
+    grid-column-end: 7; /*finalizar em uma linha vertical
+    
+    grid-row-start: 2;/*faz com que inicie da linha horizontal
+    grid-row-end: 6;/*finaliza em uma linha horizontal*/
+}
+#item-2{
+}
+#item-3{}
+#item-4{}
+#item-5{}
+#item-6{}
+#item-7{}
+#item-8{
+    font-size: 10px;
+    width: 50%;
+    height: 50%; /*necessario para usar o align-self*/
+    /*justify-self: center; stratch= inteiro/ center= centro
+    align-self: center;*/
+    place-self:   center center;
+              
+    /*justify-self= alinhamento horizontal/ align-self= alinhamento vertical*/  
+    
+}
