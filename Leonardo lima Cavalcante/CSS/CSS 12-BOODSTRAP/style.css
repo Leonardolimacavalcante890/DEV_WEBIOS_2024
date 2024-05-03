@@ -1,0 +1,17 @@
+body{
+    background-color: blue;
+}
+span{
+    color: red;
+    background-color: darkblue;
+    padding: 1%;
+}
+.nav{
+   background-color: aquamarine;
+   padding: 2%;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
