@@ -1,7 +1,7 @@
 //while >>  enquanto
 // Enquanto 0 < 10 vou apresentar a mensagem "0 ainda é menor que 10"
 
-var contador = 0
+var contador = 2
 
 //while(contador < 10) // o 10 é o limite do looping 
 //{
@@ -22,4 +22,5 @@ while(contador < 10)
 
 for(var contador = 10 ; contador < 10 ; contador++){
     console.log(contador + "ainda é menor que 10")
+    debugger
 }
