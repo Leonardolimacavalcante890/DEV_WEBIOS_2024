@@ -91,7 +91,7 @@ console.log(pop)
 console.log(mudança5)
 
 console.clear()
-//shift
+//shift começo da string
 
 var nomes = ["audi", "celta", "Uno com escada", "hb20"]
 console.log(nomes)
