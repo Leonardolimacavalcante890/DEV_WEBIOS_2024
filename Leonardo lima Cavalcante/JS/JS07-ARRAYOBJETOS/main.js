@@ -22,7 +22,6 @@ console.log(pessoa.hobbie[1])// colocar o hobbie e depois a linha ou a coluna
 console.log(pessoa.endereco)
 console.log(pessoa.endereco.estado)
 
-console.clear()
 
 let tarefa = [
     {//0
@@ -49,7 +48,6 @@ console.log(tarefa)
 console.log(tarefa[1]) //retorna objeto
 console.log(tarefa[1].nomeTarefa)//retornar uma unica propriedade de um objeto
 
-console.clear()
 
 let recebeJSON = JSON.stringify(pessoa)
 
