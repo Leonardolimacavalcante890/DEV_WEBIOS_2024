@@ -6,33 +6,33 @@ let aluno = [
     ano: '2ºB'
     },
     {
-    nome:
-    idade:
-    nota:
-    ano:
+    nome:'Bruno',
+    idade:16,
+    nota:6,
+    ano:'2ºC'
     },
     {
-    nome:
-    idade:
-    nota:
-    ano:
+    nome:'Veronica',
+    idade:16,
+    nota:9,
+    ano:'2ºC'
     },
     {
-    nome:
-    idade:
-    nota:
-    ano:
+    nome:'Maria',
+    idade:15,
+    nota:5,
+    ano:'3ºC'
     },
     {
-    nome:
-    idade:
-    nota:
-    ano:
+    nome:'Brenno',
+    idade:19,
+    nota:6,
+    ano:'3ºC'
     },
     {
-    nome:
-    idade:
-    nota:
-    ano:
+    nome:'Maria',
+    idade:14,
+    nota:4,
+    ano:'1ºF'
     }
 ]
