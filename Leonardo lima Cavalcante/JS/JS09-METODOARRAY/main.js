@@ -10,7 +10,7 @@ function retornaInfo(nomeFruta, indice){
     console.log(`Indice: ${indice}`)
 }
 
-console.clear()
+
 
 //arrow function
 frutas.forEach(parametro = (nomeFruta, indice) =>{
@@ -21,7 +21,7 @@ frutas.forEach(parametro = (nomeFruta, indice) =>{
 frutas.forEach((parametro) => console.log(parametro)) 
 //ele vai retornar apenas o nome e não vai retornar o indice
 
-console.clear()
+
 
 let tarefas = [
     {//0
@@ -46,7 +46,7 @@ let tarefas = [
 
 tarefas.forEach((tarefa) => console.log(tarefa.nomeTarefa))
 
-console.clear()
+
 
 let numeros = [2,4,12,34,79]
 let novoArray = numeros.map(Math.sqrt)
@@ -57,7 +57,7 @@ console.log("Nova array" + novoArray)
 let mapteste = tarefas.map((retornaText) => {console.log(retornaText.nomeTarefa)
 })
 
-console.clear()
+
 
 let numeros2 = [3,13,24,26,47,50,60,78,89]
 
@@ -75,7 +75,7 @@ let tarefaFilter = tarefas.filter((resultadoFiltro) => {
 
 console.log(tarefaFilter)
 
-console.clear()
+
 
 let sapatos = [
     {marca: "Nike", quantidade: 3},
