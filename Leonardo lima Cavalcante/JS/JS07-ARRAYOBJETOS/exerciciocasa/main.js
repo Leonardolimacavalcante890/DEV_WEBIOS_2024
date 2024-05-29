@@ -18,7 +18,7 @@ let aluno = [
     ano:'2ºC'
     },
     {
-    nome:'Maria',
+    nome:'Marta',
     idade:15,
     nota:5,
     ano:'3ºC'
@@ -36,3 +36,9 @@ let aluno = [
     ano:'1ºF'
     }
 ]
+
+console.log(aluno)
+console.log(aluno[1])
+console.log(aluno[5].nota)
+let recebeJSON = JSON.stringify(aluno)
+console.log(recebeJSON)

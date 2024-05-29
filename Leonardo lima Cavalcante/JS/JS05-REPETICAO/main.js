@@ -24,3 +24,15 @@ for(var contador = 10 ; contador < 10 ; contador++){
     console.log(contador + "ainda é menor que 10")
     debugger
 }
+
+
+var contador = 1
+
+ for(var contador = 0; // valor do contador
+    contador <= 10; // enquanto for o contador for menor ou até igual a 10 ele será mostrado.
+    contador++) // se o contador for 0 entao o acresentamento irá colocar mais 1 no CONTADOR
+    {
+    console.log(`2 x ${contador} //aqui é a conta em que a cada linha o acrescentador ira colocar mais 1 no valor
+     = ${2 * contador}`) // aqui a conta em q é feito a multipicação com o acrescentador em que irá colocar mais 1 de valor
+    debugger
+    }
