@@ -1,0 +1,14 @@
+header{
+    display: grid;
+    grid-template-columns: repeat(2 fr1);
+    grid-template-columns: auto;
+    background: -webkit-linear-gradient(right, #ffffff, #000000);
+    background: -moz-linear-gradient(right, #ffffff, #000000);
+    background: -ms-linear-gradient(right, #ffffff, #000000);
+    background: -o-linear-gradient(right, #ffffff, #000000);
+    background: linear-gradient(to left, #ffffff, #000000);
+}
+
+p{
+
+}
