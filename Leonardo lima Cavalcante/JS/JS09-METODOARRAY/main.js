@@ -10,7 +10,14 @@ function retornaInfo(nomeFruta, indice){
     console.log(`Indice: ${indice}`)
 }
 
+let numeros5 = [17, 43, 8, 4, 97, 56, 29]
 
+numeros5.forEach(numeros1 => {
+    if (numeros1 % 2 === 0) 
+        {console.log(`È par ${numeros1}`);
+}else {
+   console.log(`È ímpar ${numeros1}`)};
+})
 
 //arrow function
 frutas.forEach(parametro = (nomeFruta, indice) =>{
