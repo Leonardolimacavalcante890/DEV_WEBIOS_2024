@@ -44,3 +44,5 @@ var usuariocontaCorrente = new contaBancaria("Leonardo", 33, 999, "Masculino", "
 var usuariocontaEstudante = new contaBancaria("Leonardo", 33, 1200, "Masculino", "Bradesco", "Estudante", 123456);
 
 console.log("Conta Poupança:", usuariocontaPoupanca.contaPoupanca())
+console.log("Conta Corrente:", usuariocontaCorrente.contaCorrente())
+console.log("Conta Estudante:", usuariocontaEstudante.contaEstudante())
