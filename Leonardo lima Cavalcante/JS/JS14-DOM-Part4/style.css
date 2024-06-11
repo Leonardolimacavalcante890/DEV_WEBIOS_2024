@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;/*espaçamento entre as linhas*/
+    }
+    ul {
+    list-style: none;
+    }
+    ul li {
+    padding: 5px;
+    background: #f4f4f4;
+    margin: 5px 0;
+    }
+    header {
+        background: #f4f4f4;
+        padding: 1rem;
+        text-align: center;
+        }
+    .container {
+        margin: auto;/*deixou a margin automatica por causa da largura*/
+        width: 500px;/*largura*/
+        overflow: auto;/*deixa o site mais acessivel possivel*/
+        padding: 3rem 2rem;
+    }
+
+    #my-form {
+        padding: 2rem;
+        background: #f4f4f4;
+     }
+    #my-form label{
+        display: block;/*para ficar igual grid*/
+    }
+
+#my-form input[type='text']{
+width: 100%;
+padding:8px;
+margin-bottom: 10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+#my-form select/*seleciona os horarios*/{
+width: 20%;
+padding:8px;
+margin-bottom: 10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+.btn{
+display: block;
+width: 100%;
+padding: 10px 15px;
+border:0;
+background:#333;
+color:#fff;
+border-radius:5px;
+margin:5px 0;
+}
+.btn:hover{
+background:#444;
+}
+.bg-dark{
+background:#333;
+color:#fff;
+}
+.error{
+font-size: 0.8rem;
+background:#fff;
+color: red;
+}
