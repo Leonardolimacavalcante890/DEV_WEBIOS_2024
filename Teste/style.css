@@ -1,30 +1,31 @@
-header{
-    display: grid;
-    grid-template-columns: repeat(2 fr1);
-    grid-template-columns: auto;
-    background: -webkit-linear-gradient(right, #ffffff, #000000);
-    background: -moz-linear-gradient(right, #ffffff, #000000);
-    background: -ms-linear-gradient(right, #ffffff, #000000);
-    background: -o-linear-gradient(right, #ffffff, #000000);
-    background: linear-gradient(to left, #ffffff, #000000);
-    height: 160px;
+body{
+    background-color: black;
+    font-size: 1.2rem;
+    font-family: arial;
 }
-#zapp{
-    margin-left: 50%;
-    margin-right: 50%;
-    margin-bottom: 50%;
-    width: 6rem;
-    height: 5rem;
+ul, li, p{
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;
 }
 
-.box{
-    background-color: #157faf;
-    height: 300px;
-    width: 300px;
-    transition-property: background-color, border-radius;
-    transition-duration: 5s;
+a {
+    text-decoration: none;
+    color: greenyellow;
 }
-.box:hover{
-    border-radius: 50%;
-    background-color: red;
+
+.cabeca{
+    display: flex;
+    flex-wrap: wrap;/*quando a tela estiver muito pequena o wrap ira trazer a nav para baixo e não para o canto*/
+    justify-content: space-between;/*posição das colunas dividas / o space between coloca eles no cantos da tela (ENTRE ELES)*/
+    /* justify-content: space-around; feito para deixar o espaço nas bordas e deixa as colunas no meio */
+    padding: 2%;
+    align-items: center;
+    background-color: darkgreen;
+}
+
+.menu{
+  display: flex;
+  margin-left: 10%;
+
 }
